@@ -40,7 +40,7 @@ header {
 
 header .logo {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   font-weight: bolder;
 }
 
@@ -49,12 +49,28 @@ header .logo i {
 }
 
 header .navbar a {
-  font-size: 1.7rem;
-  border-radius: 5rem;
-  padding: 5rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
+  padding: 0.3rem 1.1rem;
   color: #fff;
 }
 
+header .navbar a.active,
 header .navbar a:hover {
-  color: var(--red);
+  color: #fff;
+  background: var(--red);
+}
+
+
+header .icons i,
+header .icons a {
+  cursor: pointer;
+  margin-left: 5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  background: var(--red);
 }
